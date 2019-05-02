@@ -1,0 +1,12 @@
+# Nmap 7.70 scan initiated Tue Apr 30 03:23:06 2019 as: nmap -sS -oA portTaramasi1 192.168.24.0/24
+Host: 192.168.24.1 ()	Status: Up
+Host: 192.168.24.1 ()	Ports: 80/open/tcp//http///	Ignored State: filtered (999)
+Host: 192.168.24.2 ()	Status: Up
+Host: 192.168.24.2 ()	Ports: 53/open/tcp//domain///	Ignored State: closed (999)
+Host: 192.168.24.139 ()	Status: Up
+Host: 192.168.24.139 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 389/open/tcp//ldap///	Ignored State: closed (997)
+Host: 192.168.24.254 ()	Status: Up
+Host: 192.168.24.254 ()	Status: Up
+Host: 192.168.24.135 ()	Status: Up
+Host: 192.168.24.135 ()	Ports: 22/open/tcp//ssh///	Ignored State: closed (999)
+# Nmap done at Tue Apr 30 03:23:14 2019 -- 256 IP addresses (5 hosts up) scanned in 7.82 seconds

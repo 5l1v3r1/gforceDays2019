@@ -1,0 +1,36 @@
+# Nmap 7.70 scan initiated Tue Apr 30 03:23:06 2019 as: nmap -sS -oA portTaramasi1 192.168.24.0/24
+Nmap scan report for 192.168.24.1
+Host is up (0.00042s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:50:56:C0:00:08 (VMware)
+
+Nmap scan report for 192.168.24.2
+Host is up (0.00056s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 00:50:56:E0:F6:84 (VMware)
+
+Nmap scan report for 192.168.24.139
+Host is up (0.00075s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+389/tcp open  ldap
+MAC Address: 00:0C:29:2E:7F:66 (VMware)
+
+Nmap scan report for 192.168.24.254
+Host is up (0.00022s latency).
+All 1000 scanned ports on 192.168.24.254 are filtered
+MAC Address: 00:50:56:FF:13:5C (VMware)
+
+Nmap scan report for 192.168.24.135
+Host is up (0.000010s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+# Nmap done at Tue Apr 30 03:23:14 2019 -- 256 IP addresses (5 hosts up) scanned in 7.82 seconds

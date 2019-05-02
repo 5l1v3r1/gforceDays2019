@@ -1,0 +1,4 @@
+gazi
+gazi.txt
+xss
+sqli

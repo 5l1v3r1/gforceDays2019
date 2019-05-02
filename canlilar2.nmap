@@ -1,0 +1,16 @@
+# Nmap 7.70 scan initiated Tue Apr 30 03:10:11 2019 as: nmap -sP -oA canlilar2 192.168.24.0/24
+Nmap scan report for 192.168.24.1
+Host is up (0.00055s latency).
+MAC Address: 00:50:56:C0:00:08 (VMware)
+Nmap scan report for 192.168.24.2
+Host is up (0.00031s latency).
+MAC Address: 00:50:56:E0:F6:84 (VMware)
+Nmap scan report for 192.168.24.139
+Host is up (0.0013s latency).
+MAC Address: 00:0C:29:2E:7F:66 (VMware)
+Nmap scan report for 192.168.24.254
+Host is up (0.00077s latency).
+MAC Address: 00:50:56:FF:13:5C (VMware)
+Nmap scan report for 192.168.24.135
+Host is up.
+# Nmap done at Tue Apr 30 03:10:13 2019 -- 256 IP addresses (5 hosts up) scanned in 1.85 seconds

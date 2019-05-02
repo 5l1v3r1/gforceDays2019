@@ -1,0 +1,6 @@
+# Nmap 7.70 scan initiated Tue Apr 30 03:05:15 2019 as: nmap -sP -oA canlilar1 192.168.24.0/24
+Host: 192.168.24.1 ()	Status: Up
+Host: 192.168.24.2 ()	Status: Up
+Host: 192.168.24.254 ()	Status: Up
+Host: 192.168.24.135 ()	Status: Up
+# Nmap done at Tue Apr 30 03:05:18 2019 -- 256 IP addresses (4 hosts up) scanned in 2.61 seconds

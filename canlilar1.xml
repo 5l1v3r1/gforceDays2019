@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Tue Apr 30 03:05:15 2019 as: nmap -sP -oA canlilar1 192.168.24.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sP -oA canlilar1 192.168.24.0/24" start="1556607915" startstr="Tue Apr 30 03:05:15 2019" version="7.70" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="ARP Ping Scan" time="1556607915" percent="2.35" remaining="0" etc="1556607915"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.24.1" addrtype="ipv4"/>
+<address addr="00:50:56:C0:00:08" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="586" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.24.2" addrtype="ipv4"/>
+<address addr="00:50:56:E0:F6:84" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="373" rttvar="3764" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.24.254" addrtype="ipv4"/>
+<address addr="00:50:56:FF:13:5C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="180" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.24.135" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</host>
+<runstats><finished time="1556607918" timestr="Tue Apr 30 03:05:18 2019" elapsed="2.61" summary="Nmap done at Tue Apr 30 03:05:18 2019; 256 IP addresses (4 hosts up) scanned in 2.61 seconds" exit="success"/><hosts up="4" down="252" total="256"/>
+</runstats>
+</nmaprun>

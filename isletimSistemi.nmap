@@ -1,0 +1,61 @@
+# Nmap 7.70 scan initiated Tue Apr 30 04:05:06 2019 as: nmap -O -oA isletimSistemi 192.168.24.0/24
+Nmap scan report for 192.168.24.1
+Host is up (0.00051s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:50:56:C0:00:08 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING): AVtech embedded (87%), FreeBSD 6.X|10.X (86%), Microsoft Windows XP (85%)
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:10.3 cpe:/o:microsoft:windows_xp::sp2
+Aggressive OS guesses: AVtech Room Alert 26W environmental monitor (87%), FreeBSD 6.2-RELEASE (86%), FreeBSD 10.3-STABLE (85%), Microsoft Windows XP SP2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.24.2
+Host is up (0.0021s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 00:50:56:E0:F6:84 (VMware)
+Device type: specialized
+Running: VMware Player
+OS CPE: cpe:/a:vmware:player
+OS details: VMware Player virtual NAT device
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.24.139
+Host is up (0.0013s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+389/tcp open  ldap
+MAC Address: 00:0C:29:2E:7F:66 (VMware)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32
+OS details: Linux 2.6.32
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.24.254
+Host is up (0.00034s latency).
+All 1000 scanned ports on 192.168.24.254 are filtered
+MAC Address: 00:50:56:FF:13:5C (VMware)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.24.135
+Host is up (0.000039s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+Device type: general purpose
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3
+OS details: Linux 3.7 - 3.10
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Apr 30 04:05:20 2019 -- 256 IP addresses (5 hosts up) scanned in 14.98 seconds
